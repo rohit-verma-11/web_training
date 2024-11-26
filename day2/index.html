@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="first">First Name: </label>
+        <input type="text" id="first" placeholder="Enter First Name"><br>
+        <label for="last">Last Name: </label>
+        <input type="text" id="last" placeholder="Enter Last Name"><br>
+        <label for="contact1">Email: </label>
+        <input type="email" id="contact1" placeholder="Enter Email Address"><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass"><br>
+        <label for="Gender">Gender :
+            <div>
+                <label for="male">Male<input name="gender" type="radio" id="male"></label><br>
+                <label for="female">Female<input name="gender" type="radio" id="female"></label><br>
+                <label for="others">Others<input name="gender" type="radio" id="others"></label><br>
+            </div>    
+        </label>
+        <label for="age">Age</label>
+        <input type="number" name="" id="age" max="100" min="0"><br>
+        <span>Preferences:</span><br>
+        <label for="Acrylic">Acrylic Painting<input type="checkbox" name="Acrylic" id="Acrylic"></label><br>
+        <label for="Oil">Oil Painting<input type="checkbox" name="Oil" id="Oil"></label><br>
+        <label for="Water">Water Painting<input type="checkbox" name="Water" id="Water"></label><br>
+        <label for="occupation">Select Occupation:
+            <select name="" id="occupation">
+                <option value="0">Select your occupation</option>
+                <option value="1">Clerk</option>
+                <option value="2">Student</option>
+                <option value="3">Teacher</option>
+                <option value="4">Principal</option>
+            </select>
+        </label><br>
+        <label for="about">Bio</label><textarea name="" id="about" placeholder="Share few lines about yourself..."></textarea><br>
+        <button type="reset">Reset</button><button type="submit">Submit</button>
+    </form>
+</body>
+</html>
