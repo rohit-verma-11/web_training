@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(223, 217, 217, 0.947);
+}
+.container{
+    font-family: helvetica;
+    position: absolute;
+    height: 72.3%;
+    width: 51.3%;
+    background-color: white;
+    top: 13.5%;
+    left:26.5%;
+    box-shadow: 0px 0 50px rgb(0,0,0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    h1{
+        font-size: 1.6rem;
+    }
+    .form{
+        margin-top: 4%;
+        height:18%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 0.3%;
+        gap: 1.2rem;
+        justify-content: center;
+        #task{
+            height:2.5rem;
+            width: 13rem;
+            font-size: 1rem;
+            padding-left: 5px;
+            border: 1px solid rgba(128, 128, 128, 0.305);
+            border-radius: 4px;
+            box-shadow: 0 0 5px #000000;
+        }
+        button{
+            height: 2.5rem;
+            width: 5.4rem;
+            background-color: rgb(79, 79, 250);
+            color: white;
+            font-weight: 600;
+            border: 0;
+            box-shadow: 0 0 5px #000000;
+            border-radius: 4px;
+        }
+    }
+    .display{
+        height: 63%;
+        width: 92%;
+        overflow-y: scroll;
+        box-shadow: 0 0 3px #000000;
+        border-radius: 5px;
+        scrollbar-width: none;
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            tr{
+                border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+                /* text-align: left; */
+                th{
+                    padding-left: 10px;
+                    height: 50px;
+                }
+                td{
+                    height:80px;
+                }
+            }
+            .s-no{
+                width:10%;
+            }
+            .item{
+                width: 36%;
+            }
+            .status{
+                width: 18%;
+            }
+            td{
+                text-align: center;
+            }
+            .action{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5%;
+                button{
+                    height:50%;
+                    width:40%;
+                    border: 0;
+                    border-radius: 4px;
+                    color: white;
+                    box-shadow: 0 0 2px #000000a7;
+                }
+                .delete{
+                    background-color: red;
+                }
+                .finished{
+                    background-color: green;
+                }
+            }
+        }
+    }
+}
