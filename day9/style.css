@@ -1,0 +1,15 @@
+#box{
+    height: 220px;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: skyblue;
+    border: 5px solid greenyellow;
+    font-weight: 600;
+}
+#display{
+    gap: 20px;
+    width: 100svw;
+    display: flex;
+    flex-wrap: wrap;
+}
