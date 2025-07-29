@@ -20,9 +20,9 @@ const display = ()=>{
                     <th class="action">Actions</th>
                 </tr>`
     for (let i = 0;i<localStorage.length;i++){
-        console.log(i);
+        // console.log(i);
         k = localStorage.key(i)
-        console.log(i,localStorage[i])
+        console.log(i,localStorage.getItem(k);
         table.innerHTML+=`<tr>
                     <td class="s-no">${i+1}</td>
                     <td class="item">${localStorage.getItem(k).split("/")[0]}</td>
