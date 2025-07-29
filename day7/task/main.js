@@ -20,7 +20,7 @@ const display = ()=>{
                     <th class="action">Actions</th>
                 </tr>`
     for (let i = 0;i<localStorage.length;i++){
-        // console.log(i);
+        console.log('hello');
         k = localStorage.key(i)
         console.log(i,localStorage.getItem(k);
         table.innerHTML+=`<tr>
